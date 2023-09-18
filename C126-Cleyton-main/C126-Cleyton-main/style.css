@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Martian+Mono&display=swap');
+body{
+    background:url("fundo.jpg");
+    background-size:cover;
+    margin:0;
+    padding:0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+#diferente, .note{
+    text-align:center;
+    font-size:30pt;
+    color:#ffff;
+}
+.div_speed, .div_volume{
+    float:left;
+    width:50%;
+    text-align:center;
+    color:#fff;
+}
+.div_speed img, .div_volume img{
+    width:20%;
+    height:20%;
+    border-radius:50%;
+    display:inline-block;
+}
+.play_button{
+    font-size:18pt;
+    background-color:#2dc6f5;
+    padding:20px;
+    font-weight:bold;
+    color:white;
+    border-radius:20px;
+    transition:background-color 0.3s ease-in-out;
+}
+.play_button:hover{
+    background-color: blueviolet;
+    transform:scale(1.1);
+}
+#volume, #speed{
+    background-color:blueviolet;
+    width:20%;
+    height:30%;
+    padding:20px;
+    border-radius:20px;
+}
